@@ -7,8 +7,6 @@ Dataset base: "Women Clothing E-commerce Sales Data" (Kaggle).
 - `producer.py`        — Producer Kafka: simula ventas y envía eventos JSON al topic `sales_data`.
 - `consumer.py`        — Consumer PySpark: Spark Structured Streaming que lee desde Kafka y calcula agregados por ventana.
 - `eda_batch.py`       — Script de análisis batch (EDA) local con pandas (opcional).
-- `start_kafka.sh`     — Script para iniciar ZooKeeper + Kafka (opcional, se incluye más abajo).
-- `stop_kafka.sh`      — Script para detener procesos (opcional).
 - `requirements.txt`   — Dependencias Python (kafka-python, pandas, etc.)
 - `README.md`          — (este archivo)
 
