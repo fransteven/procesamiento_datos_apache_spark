@@ -1,0 +1,107 @@
+# --- Python estándar ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos virtuales ---
+venv/
+ENV/
+env/
+.venv/
+.env/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# --- Archivos de configuración locales ---
+*.env
+.env.*
+*.ini
+*.cfg
+*.toml
+config.local.*
+
+# --- Archivos de compilación / distribución ---
+build/
+dist/
+*.manifest
+*.spec
+
+# --- Logs y archivos temporales ---
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# --- Archivos del sistema operativo ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.pydevproject
+
+# --- Jupyter y notebooks ---
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# --- PySpark y Apache ---
+# Archivos temporales y metadatos de Spark
+.metastore_db/
+derby.log
+spark-warehouse/
+*.crc
+*.parquet.crc
+
+# Checkpoints o salidas temporales de Spark
+checkpoint/
+checkpoints/
+spark-events/
+spark_logs/
+spark_output/
+spark-temp/
+
+# --- Archivos adicionales opcionales ---
+# Si usas Git en Windows con PowerShell
+*.ps1
+*.bat
+
+# --- Cache y librerías ---
+.cache/
+__pypackages__/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Datos temporales o grandes ---
+data/
+datasets/
+*.csv
+*.parquet
+*.json
+*.zip
+*.gz
+
+# --- Otros ---
+# No subir resultados de pruebas o ejecuciones locales
+output/
+results/
+reports/
